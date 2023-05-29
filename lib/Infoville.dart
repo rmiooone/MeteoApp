@@ -151,13 +151,20 @@ class Infoville extends StatelessWidget {
                   ),
                   Row(
                     children: [
+                      SvgPicture.asset(
+                        'images/sunlight.svg',
+                        width: 20,
+                        height: 20,
+                        color: Colors.black,
+                      ),
+                      SizedBox(width: 10),
                       Text(
-                        '10°',
+                        '12°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black),
                       ),
                       SizedBox(width: 10),
                       Text(
-                        '20°',
+                        '23°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey),
                       ),
                     ],
@@ -174,13 +181,20 @@ class Infoville extends StatelessWidget {
                   ),
                   Row(
                     children: [
+                      SvgPicture.asset(
+                        'images/rain.svg',
+                        width: 20,
+                        height: 20,
+                        color: Colors.black,
+                      ),
+                      SizedBox(width: 10),
                       Text(
-                        '10°',
+                        '9°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black),
                       ),
                       SizedBox(width: 10),
                       Text(
-                        '20°',
+                        '19°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey),
                       ),
                     ],
@@ -198,6 +212,13 @@ class Infoville extends StatelessWidget {
                   ),
                   Row(
                     children: [
+                      SvgPicture.asset(
+                        'images/sunlight.svg',
+                        width: 20,
+                        height: 20,
+                        color: Colors.black,
+                      ),
+                      SizedBox(width: 10),
                       Text(
                         '10°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black),
@@ -222,13 +243,20 @@ class Infoville extends StatelessWidget {
                   ),
                   Row(
                     children: [
+                      SvgPicture.asset(
+                        'images/rain.svg',
+                        width: 20,
+                        height: 20,
+                        color: Colors.black,
+                      ),
+                      SizedBox(width: 10),
                       Text(
-                        '10°',
+                        '11°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black),
                       ),
                       SizedBox(width: 10),
                       Text(
-                        '20°',
+                        '18°',
                         style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey),
                       ),
                     ],
